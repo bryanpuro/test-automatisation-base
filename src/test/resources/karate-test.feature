@@ -149,7 +149,7 @@ Feature: Test de API súper simple
 # Eliminar un personaje
   @id:12 @eliminarPersonajeExitoso
   Scenario: Eliminar personaje exitosamente por ID existente
-    Given url apiDeletePersonajes + '/1944'
+    Given url apiDeletePersonajes + '/2370'
     When method DELETE
     Then status 204
     * print response
